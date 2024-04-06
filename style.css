@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  background-color: lightblue;
+  color: darkblue;
+}
+
+.joes-face {
+  border-radius: 150px;
+  width: 100px;
+}
+
+.joes-face-container {
+  text-align: center;
+}
+
+.lists-container {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: space-around
+}
+
+.list-container {
+  min-width: 100px;
+}
